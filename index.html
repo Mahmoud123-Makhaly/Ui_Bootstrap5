@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html data-bs-theme="blue">
+  <head>
+    <title>Bondi</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg sticky-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">Logo</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#main"
+          aria-controls="main"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="main">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link p-2 p-lg-3 active" aria-current="page" href="#"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link p-2 p-lg-3" href="#">Sevices</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link p-2 p-lg-3" href="#">Portflio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link p-2 p-lg-3" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link p-2 p-lg-3" href="#">Contact</a>
+            </li>
+          </ul>
+          <div class="search px-3 d-none d-lg-block">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+          <a href="#" class="btn main-btn rounded-pill">login</a>
+        </div>
+      </div>
+    </nav>
+    <!-- landing -->
+    <div class="landing d-flex justify-content-center align-items-center">
+      <div class="text-center text-light">
+        <h2>Taste The Creativity</h2>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <a href="#" class="btn main-btn rounded-pill">Get Started</a>
+      </div>
+    </div>
+    <!-- feature -->
+    <div class="feature py-5 text-center">
+      <div class="container">
+        <div class="main-title text-center position-relative">
+          <i class="fa-solid fa-diagram-project fa-3x text-warning"></i>
+          <h3 class="pt-3 pb-0">We Are Good At</h3>
+          <p class="text-black-50">Lorem ipsum dolor sit amet .</p>
+        </div>
+        <div class="row">
+          <div class="col-md-6 col-lg-4">
+            <div class="feat">
+              <div class="icons-holder position-relative">
+                <i class="fa-solid fa-1 number position-absolute"></i>
+                <i class="fa-solid fa-pencil pen fa-3x position-absolute"></i>
+              </div>
+              <h3 class="text-warning my-2">Graphic Design</h3>
+              <p class="text-black-50 lh-base">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
+                necessitatibus sunt iure deleniti? Quidem ducimus et modi earum.
+                Veniam, velit?
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="feat">
+              <div class="icons-holder position-relative">
+                <i class="fa-solid fa-2 number position-absolute"></i>
+                <i class="fa-solid fa-laptop pen fa-3x position-absolute"></i>
+              </div>
+              <h3 class="text-warning my-2">Web Design</h3>
+              <p class="text-black-50 lh-base">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
+                necessitatibus sunt iure deleniti? Quidem ducimus et modi earum.
+                Veniam, velit?
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="feat">
+              <div class="icons-holder position-relative">
+                <i class="fa-solid fa-3 number position-absolute"></i>
+                <i class="fa-solid fa-fire pen fa-3x position-absolute"></i>
+              </div>
+              <h3 class="text-warning my-2">App Design</h3>
+              <p class="text-black-50 lh-base">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
+                necessitatibus sunt iure deleniti? Quidem ducimus et modi earum.
+                Veniam, velit?
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- our work -->
+    <div class="our-work pt-5 pb-3">
+      <div class="container">
+        <div class="main-title text-center position-relative">
+          <i class="fa-solid fa-diagram-project fa-3x text-warning"></i>
+          <h3 class="pt-3 pb-0">We Make This</h3>
+          <p class="text-black-50">Lorem ipsum dolor sit amet .</p>
+        </div>
+        <ul class="list-unstyled py-5 d-flex justify-content-center">
+          <li class="active rounded">All</li>
+          <li>Design</li>
+          <li>Photography</li>
+          <li>Apps</li>
+        </ul>
+        <div class="row">
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div
+              class="box bg-white mb-3 position-relative"
+              data-work="application"
+            >
+              <img src="images/work-01.jpg" alt="img1" class="img-fluid" />
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div
+              class="box bg-white mb-3 position-relative"
+              data-work="application"
+            >
+              <img src="images/work-02.jpg" alt="img2" class="img-fluid" />
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div
+              class="box bg-white mb-3 position-relative"
+              data-work="application"
+            >
+              <img src="images/work-03.jpg" alt="img3" class="img-fluid" />
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div
+              class="box bg-white mb-3 position-relative"
+              data-work="application"
+            >
+              <img src="images/work-04.jpg" alt="img4" class="img-fluid" />
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div
+              class="box bg-white mb-3 position-relative"
+              data-work="application"
+            >
+              <img src="images/work-05.jpg" alt="img5" class="img-fluid" />
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div
+              class="box bg-white mb-3 position-relative"
+              data-work="application"
+            >
+              <img src="images/work-06.jpg" alt="img6" class="img-fluid" />
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div
+              class="box bg-white mb-3 position-relative"
+              data-work="application"
+            >
+              <img src="images/work-07.jpg" alt="img7" class="img-fluid" />
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div
+              class="box bg-white mb-3 position-relative"
+              data-work="application"
+            >
+              <img src="images/work-08.jpg" alt="img8" class="img-fluid" />
+            </div>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center py-4">
+          <a href="#" class="btn main-btn rounded-pill text-uppercase"
+            >Get Started</a
+          >
+        </div>
+      </div>
+    </div>
+    <!-- stuff -->
+    <div class="stuff mt-5 mb-5">
+      <div class="container">
+        <div class="main-title text-center position-relative">
+          <i class="fa-solid fa-diagram-project fa-3x text-warning"></i>
+          <h3 class="pt-3 pb-0">Some Stuff About Us</h3>
+          <p class="text-black-50">The Great Team.</p>
+        </div>
+        <p class="my-5 text-black-50">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Et amet
+          dolore quidem ratione, rem repellat nam sapiente? Rerum eum voluptate
+          maiores, quisquam aut deleniti. Neque, quo? Quam voluptates doloremque
+          earum?
+        </p>
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="stuff-info text-center text-md-start mb-5">
+              <h4>Ratina Design</h4>
+              <p class="text-black-50">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Mollitia enim ex dicta iste placeat, quaerat, optio neque
+                incidunt adipisci .
+              </p>
+              <p class="text-black-50">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Non
+                necessitatibus animi omnis distinctio mollitia veritatis nisi
+                molestiae voluptates vel dolores impedit enim ex eaque eligendi,
+              </p>
+              <a href="#" class="btn main-btn rounded-pill text-uppercase"
+                >Get Started</a
+              >
+            </div>
+          </div>
+          <div class="col-lg-8">
+            <div class="stuff-img text-center">
+              <img src="images/laptop.png" alt="laptop" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- our team -->
+    <div class="our-team py-5 text-center">
+      <div class="container mt-5 mb-5">
+        <h3 class="fw-bold text-warning">Meet The Team</h3>
+        <p class="text-black-50 mb-5">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis
+          modi ratione veritatis eum nam nesciunt aliquam, consequuntur nobis
+          veniam nemo enim voluptatibus qui ullam explicabo magnam officiis
+          perferendis pariatur consequatur.
+        </p>
+        <div class="row">
+          <div class="col-md-6 col-lg-3">
+            <div class="box bg-white">
+              <img src="images/c1.png" alt="avatar" class="img-fluid" />
+              <h4 class="py-2 text-white">Michelle Yeoh</h4>
+              <blockquote class="p-3">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Distinctio provident facere eum .
+              </blockquote>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="box bg-white">
+              <img src="images/c2.png" alt="avatar" class="img-fluid" />
+              <h4 class="py-2 text-white">Michelle Yeoh</h4>
+              <blockquote class="p-3">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Distinctio provident facere eum .
+              </blockquote>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="box bg-white">
+              <img src="images/c3.png" alt="avatar" class="img-fluid" />
+              <h4 class="py-2 text-white">Michelle Yeoh</h4>
+              <blockquote class="p-3">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Distinctio provident facere eum .
+              </blockquote>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="box bg-white">
+              <img src="images/c4.png" alt="avatar" class="img-fluid" />
+              <h4 class="py-2 text-white">Michelle Yeoh</h4>
+              <blockquote class="p-3">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Distinctio provident facere eum .
+              </blockquote>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- techs -->
+    <div class="techs py-5 text-center">
+      <div class="container">
+        <div class="row d-flex align-items-center">
+          <div class="col-6 col-md-4 col-lg-2">
+            <img src="images/tech-1.png" class="mb-4" alt="tech1" />
+          </div>
+          <div class="col-6 col-md-4 col-lg-2">
+            <img src="images/tech-2.png" class="mb-4" alt="tech1" />
+          </div>
+          <div class="col-6 col-md-4 col-lg-2">
+            <img src="images/tech-3.png" class="mb-4" alt="tech1" />
+          </div>
+          <div class="col-6 col-md-4 col-lg-2">
+            <img src="images/tech-4.png" class="mb-4" alt="tech1" />
+          </div>
+          <div class="col-6 col-md-4 col-lg-2">
+            <img src="images/tech-1.png" class="mb-4" alt="tech1" />
+          </div>
+          <div class="col-6 col-md-4 col-lg-2">
+            <img src="images/tech-2.png" class="mb-4" alt="tech1" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- project   -->
+    <div class="project text-center py-5">
+      <h3 class="text-white">Start Your Project Now</h3>
+      <p class="text-white-50">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit Quas pariatur.
+      </p>
+      <div class="d-flex justify-content-center py-3">
+        <a href="#" class="btn main-btn rounded-pill text-uppercase"
+          >Get Started</a
+        >
+      </div>
+    </div>
+    <!-- blog -->
+    <div class="blog py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-lg-4">
+            <div class="blog-item mb-3">
+              <div class="card">
+                <img
+                  src="images/blog-1.jpg"
+                  class="card-img-top"
+                  alt="blog-1"
+                />
+                <div class="card-body">
+                  <span class="card-title text-black-50">jsn 17 , 2022</span>
+                  <p class="card-text">Some Awesome Blog Title Here</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="blog-item mb-3">
+              <div class="card">
+                <img
+                  src="images/blog-2.jpg"
+                  class="card-img-top"
+                  alt="blog-2"
+                />
+                <div class="card-body">
+                  <span class="card-title text-black-50">jsn 17 , 2022</span>
+                  <p class="card-text">Some Awesome Blog Title Here</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="blog-item mb-3">
+              <div class="card">
+                <img
+                  src="images/blog-3.jpg"
+                  class="card-img-top"
+                  alt="blog-3"
+                />
+                <div class="card-body">
+                  <span class="card-title text-black-50">jsn 17 , 2022</span>
+                  <p class="card-text">Some Awesome Blog Title Here</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- start subscribe -->
+    <div class="subscribe py-5">
+      <div class="container">
+        <form>
+          <div class="row align-items-center">
+            <div class="col-md-6 col-lg-3">
+              <h5 class="mb-3 mb-lg-0">Subscribe To Our Newletter:</h5>
+            </div>
+            <div class="col-md-6 col-lg-7">
+              <input
+                name="email"
+                type="text"
+                class="w-100 bg-transparent mb-3 mb-md-0"
+                placeholder="Enter Email Address"
+              />
+            </div>
+            <div class="col-md-6 col-lg-2">
+              <input
+                type="submit"
+                value="Subscribe"
+                class="bg-dark rounded-pill text-warning"
+              />
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <!-- footer -->
+    <div class="footer py-5 text-center text-md-start">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-lg-4">
+            <div class="info mb-4 mb-md-0">
+              <img src="images/logo.png" alt="logo" />
+              <p class="text-white-50 mt-4 mb-5 lh-lg">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
+                sit pariatur eius, tempore .
+              </p>
+              <p class="text-white-50">
+                Created By <span>Graphbery</span> , Belgrade,<br />serba &copy;
+                2017 -
+                <span>Brand Inc</span>
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-2">
+            <div class="links mb-4 mb-md-0">
+              <h5 class="text-white mb-4">Links</h5>
+              <ul class="text-white-50 list-unstyled">
+                <li class="mb-2">Home</li>
+                <li class="mb-2">Our Services</li>
+                <li class="mb-2">Pertflio</li>
+                <li class="mb-2">Testimonials</li>
+                <li class="mb-2">Supports</li>
+                <li class="mb-2">Terms and Condition</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-2">
+            <div class="links mb-4 mb-md-0">
+              <h5 class="text-white mb-4">About Us</h5>
+              <ul class="text-white-50 list-unstyled">
+                <li class="mb-2">Home</li>
+                <li class="mb-2">Our Services</li>
+                <li class="mb-2">Pertflio</li>
+                <li class="mb-2">Testimonials</li>
+                <li class="mb-2">Supports</li>
+                <li class="mb-2">Terms and Condition</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="contact mb-4 mb-md-0">
+              <h5 class="text-white mb-4">About Us</h5>
+              <p class="text-white-50">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Est in
+                dolorum dolor! Fugiat, modi nam
+              </p>
+              <a
+                href="#"
+                class="main-btn rounded-pill d-block w-100 text-decoration-none text-white text-center my-4"
+                >Graphbery@gmail.com</a
+              >
+              <ul
+                class="list-unstyled d-flex gap-3 justify-content-md-start justify-content-center"
+              >
+                <li>
+                  <a href="#"
+                    ><i class="fa-brands fa-facebook-f facebook"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa-brands fa-twitter twitter"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa-brands fa-youtube youtube"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa-brands fa-spotify spotify"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/all.min.js"></script>
+  </body>
+</html>
